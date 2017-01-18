@@ -1,0 +1,1 @@
+conda install -c jaikumarm keras=1.2.0
