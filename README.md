@@ -29,7 +29,6 @@ And you are done! :sunglasses:
 ## Android Images
 
 <img  height=600 src="http://i.imgur.com/MlpHoYi.png" />
-
 <img  height=600 src="http://i.imgur.com/QblVzRB.png" />
 
 ## About
