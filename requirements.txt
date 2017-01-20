@@ -4,3 +4,4 @@ numpy
 matplotlib
 brewer2mpl
 pillow
+seaborn
