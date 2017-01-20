@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     EditText dataInput3;
     EditText dataInput4;
     ImageView imgView;
-    String predictionUrl = "<YOUR_APP_URL>/predict";
-    String isModelLoadedUrl = "<YOUR_APP_URL>/isModelLoaded";
+    String predictionUrl = "http://iris-classifier-example.herokuapp.com/predict";
+    String isModelLoadedUrl = "http://iris-classifier-example.herokuapp.com/isModelLoaded";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
