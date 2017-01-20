@@ -2,7 +2,7 @@
 
 This is an example how can you deploy your Machine Learning code to Heroku.
 
-It also contains code for a really simple Android app which uses the deployed project.
+It also contains code for a really simple **Android app** which uses the deployed project.
 
 ## Setup
 
@@ -25,6 +25,17 @@ heroku ps:scale web=1
 ```
 
 And you are done! :sunglasses:
+
+## Test it!
+
+After you made all the steps above you can go to `<your_heroku_app_name>.herokuapp.com`.
+You sould see the homepage.
+
+Try out prediction: `<your_heroku_app_name>.herokuapp.com/predict/3.4-4.1-5.1-0.3`. After that you can see the json for the prediction.
+
+For exmaple, here is a live demo with this code:
+	* Homepage: [http://iris-classifier-example.herokuapp.com/](http://iris-classifier-example.herokuapp.com)
+	* Prediction: [http://iris-classifier-example.herokuapp.com/predict/3.4-4.1-5.1-0.3](http://iris-classifier-example.herokuapp.com/predict/3.4-4.1-5.1-0.3)
 
 ## Android Images
 
