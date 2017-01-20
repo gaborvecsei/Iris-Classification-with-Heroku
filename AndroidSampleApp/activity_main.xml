@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gabor.vecsei.irisclassification.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter the data for prediction:" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <EditText
+            android:id="@+id/data_input1"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:hint="Sepal Length in Cm"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/data_input2"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:hint="Sepal Width in Cm"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/data_input3"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:hint="Petal Length in Cm"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/data_input4"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:hint="Petal Width in Cm"
+            android:inputType="numberDecimal" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict!" />
+
+
+    <ImageView
+        android:id="@+id/chart_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="350sp" />
+
+
+</LinearLayout>
